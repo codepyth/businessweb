@@ -24,38 +24,43 @@ export const services = [
   {
     icon: <WebIcon />,
     title: "Website Development",
-    description: "Responsive and fast websites built with modern technologies.",
+    description:
+      "Elevate your digital presence with our expert web development solutions. We craft visually stunning websites designed to attract, engage, and inspire your audience.",
   },
   {
     icon: <SoftwareIcon />,
     title: "Application Development",
-    description: "Cross-platform mobile apps tailored to your business needs.",
+    description:
+      "Harness the strength of our advanced technology through tailored application development services. We build reliable and innovative software solutions that bring your vision to life.",
   },
   {
     icon: <GraphicIcon />,
     title: "Graphic Designing",
-    description: "Creative visuals and branding that stand out.",
+    description:
+      "Make a memorable impact with our captivating graphic design services. We deliver eye-catching visuals that draw in and resonate with your audience.",
   },
   {
     icon: <SeoIcon />,
     title: "Search Engine Optimization",
     description:
-      "Boost your visibility and drive organic traffic to your site.",
+      "Boost your online presence and stay ahead of the competition with our SEO services. We fine-tune your website to drive organic traffic and secure top positions in search engine results.",
   },
   {
     icon: <MarketingIcon />,
     title: "Social Media Marketing",
     description:
-      "Engage your audience and grow your presence across platforms.",
+      "Enhance your brand’s visibility with our targeted social media marketing strategies. Through impactful content and strategic campaigns, we help you grow your audience and build lasting engagement.",
   },
   {
     icon: <AdsIcon />,
     title: "Google Ads",
-    description: "Maximize ROI with strategic ad campaigns on Google.",
+    description:
+      "We craft and manage high-performing campaigns to fuel your business growth. Our Google Ads services boost your online visibility and drive quality leads to your site.",
   },
   {
     icon: <AdsIcon />,
     title: "Resume Writing",
-    description: "Maximize ROI with strategic ad campaigns on Google.",
+    description:
+      "Stand out to employers with our professional resume writing services. We create tailored, polished resumes that highlight your strengths and showcase your experience to help you land your ideal job.",
   },
 ];

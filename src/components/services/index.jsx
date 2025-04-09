@@ -16,7 +16,7 @@ export const Services = () => {
             <ServiceCard
               key={index}
               icon={item?.icon}
-              heading={item?.heading}
+              heading={item?.title}
               description={item?.description}
             />
           );
