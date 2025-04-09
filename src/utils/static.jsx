@@ -4,6 +4,7 @@ import { MarketingIcon } from "../assets/svgs/components/marketing-icon";
 import { SeoIcon } from "../assets/svgs/components/seo-icon";
 import { SoftwareIcon } from "../assets/svgs/components/software-icon";
 import { WebIcon } from "../assets/svgs/components/web-icon";
+import profile from "../assets/svgs/profile_dummy.svg";
 
 export const Field = {
   input: "input",
@@ -62,5 +63,29 @@ export const services = [
     title: "Resume Writing",
     description:
       "Stand out to employers with our professional resume writing services. We create tailored, polished resumes that highlight your strengths and showcase your experience to help you land your ideal job.",
+  },
+];
+
+export const teamMembers = [
+  {
+    image: profile,
+    name: "Mateen Nawaz",
+    position: "CEO & Senior Software Engineer",
+    description:
+      "Mateen is the visionary behind our company, with over 10 years of experience in the industry.",
+  },
+  {
+    image: profile,
+    name: "Wasim Nawaz",
+    position: "CTO & Project Manager",
+    description:
+      "Jane leads our tech team with her expertise in software development and innovation.",
+  },
+  {
+    image: profile,
+    name: "Aziz ullah",
+    position: "Senior Graphic Designer",
+    description:
+      "Aziz is our creative genius, responsible for all things design and branding.",
   },
 ];

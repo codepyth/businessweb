@@ -1,5 +1,6 @@
-import banner from "../../assets/pngs/main_banner.png";
+import { OurTeam } from "../ourTeam";
 import { Services } from "../services";
+import banner from "../../assets/pngs/main_banner.png";
 
 export const Landing = () => {
   return (
@@ -9,6 +10,7 @@ export const Landing = () => {
       </div>
 
       <Services />
+      <OurTeam />
     </>
   );
 };
