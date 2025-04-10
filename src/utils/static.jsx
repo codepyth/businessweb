@@ -5,6 +5,7 @@ import { SeoIcon } from "../assets/svgs/components/seo-icon";
 import { SoftwareIcon } from "../assets/svgs/components/software-icon";
 import { WebIcon } from "../assets/svgs/components/web-icon";
 import profile from "../assets/svgs/profile_dummy.svg";
+import dummyReview from "../assets/pngs/dummy-review.jpg";
 
 export const Field = {
   input: "input",
@@ -72,20 +73,65 @@ export const teamMembers = [
     name: "Mateen Nawaz",
     position: "CEO & Senior Software Engineer",
     description:
-      "Mateen is the visionary behind our company, with over 10 years of experience in the industry.",
+      "Mateen is the driving force and visionary behind our company, bringing over 3+ years of hands-on experience in software engineering. With a passion for solving complex problems, he oversees strategic direction while leading the development of cutting-edge, scalable solutions. His expertise spans full-stack development, system architecture, and fostering innovation to deliver exceptional results for clients.",
   },
   {
     image: profile,
     name: "Wasim Nawaz",
     position: "CTO & Project Manager",
     description:
-      "Jane leads our tech team with her expertise in software development and innovation.",
+      "Wasim spearheads our technology initiatives as CTO, blending his deep knowledge of software development with a sharp focus on project execution. With years of experience in managing cross-functional teams, he ensures every project is delivered on time and exceeds expectations. His leadership in adopting emerging technologies and optimizing workflows keeps our tech stack ahead of the curve.",
   },
   {
     image: profile,
-    name: "Aziz ullah",
+    name: "Aziz Ullah",
     position: "Senior Graphic Designer",
     description:
-      "Aziz is our creative genius, responsible for all things design and branding.",
+      "Aziz is our creative powerhouse, crafting visually stunning designs that elevate our brand and captivate audiences. With a keen eye for detail and a mastery of tools like Adobe Creative Suite, he specializes in creating impactful logos, user interfaces, and marketing materials. His innovative approach to design ensures every project reflects both aesthetic excellence and functional brilliance.",
+  },
+];
+
+export const clientReviews = [
+  {
+    image: dummyReview,
+    name: "Mark Miller",
+    rating: 4.5,
+    description:
+      "Delivered exactly what we needed—on time and with great communication.",
+  },
+  {
+    image: dummyReview,
+    name: "Sophia Reynolds",
+    rating: 5.0,
+    description:
+      "Our new site looks amazing and performs even better. Highly recommended!",
+  },
+  {
+    image: dummyReview,
+    name: "David Chen",
+    rating: 4.8,
+    description:
+      "Great attention to detail and very easy to work with throughout the project.",
+  },
+  {
+    image: dummyReview,
+    name: "Emily Johnson",
+    rating: 4.7,
+    description:
+      "Fast delivery, smooth process, and exactly what we envisioned.",
+  },
+  {
+    image: dummyReview,
+    name: "Liam Brooks",
+    rating: 5.0,
+    description:
+      "Custom solution works flawlessly. Will definitely work with him again!",
+  },
+  {
+    image: dummyReview,
+    name: "Ava Mitchell",
+    rating: 4.9,
+    description:
+      "Saw instant results after launch. Professional and efficient service.",
   },
 ];
