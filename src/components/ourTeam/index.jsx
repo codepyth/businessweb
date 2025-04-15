@@ -3,7 +3,7 @@ import { EmployeeCard } from "./employee-card";
 
 export const OurTeam = () => {
   return (
-    <div className="my-10 w-[95%] lg:max-w-[80%] mx-auto">
+    <div className="my-20 w-[95%] lg:max-w-[80%] mx-auto">
       <div className="flex flex-col gap-y-2 items-center justify-center mb-10">
         <h1 className="text-2xl font-semibold">Our Team</h1>
         <p className="text-xl lg:text-[44px] font-medium text-center text-[#DB0000]">

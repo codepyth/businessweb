@@ -6,6 +6,8 @@ import { SoftwareIcon } from "../assets/svgs/components/software-icon";
 import { WebIcon } from "../assets/svgs/components/web-icon";
 import profile from "../assets/svgs/profile_dummy.svg";
 import dummyReview from "../assets/pngs/dummy-review.jpg";
+import { PenIcon } from "../assets/svgs/components/pen-icon";
+import { ReviewsIcon } from "../assets/svgs/components/reviews-icon";
 
 export const Field = {
   input: "input",
@@ -60,10 +62,16 @@ export const services = [
       "We craft and manage high-performing campaigns to fuel your business growth. Our Google Ads services boost your online visibility and drive quality leads to your site.",
   },
   {
-    icon: <AdsIcon />,
+    icon: <PenIcon />,
     title: "Resume Writing",
     description:
       "Stand out to employers with our professional resume writing services. We create tailored, polished resumes that highlight your strengths and showcase your experience to help you land your ideal job.",
+  },
+  {
+    icon: <ReviewsIcon />,
+    title: "Google Reviews",
+    description:
+      "Boost your online credibility with our Google Reviews service. We help you collect authentic customer feedback to improve your reputation, attract more clients, and build trust with potential customers on Google.",
   },
 ];
 

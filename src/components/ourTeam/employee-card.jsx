@@ -6,7 +6,9 @@ export const EmployeeCard = ({ image, name, position, description }) => {
       </div>
       <h2 className="text-xl font-semibold">{name}</h2>
       <p className="text-sm font-normal text-dark mb-2">{position}</p>
-      <p className="text-sm font-normal text-dark text-center">{description}</p>
+      <p className="text-base font-normal text-dark text-center">
+        {description}
+      </p>
     </div>
   );
 };
