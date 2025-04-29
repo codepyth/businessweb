@@ -24,7 +24,7 @@ export const Button = ({
       disabled={loading || disabled}
       className={`${classes} flex justify-center`}
     >
-      <Loader height="50" width="50" radius="9" color={loaderColor || "#fff"} />
+      {/* <Loader height="50" width="50" radius="9" color={loaderColor || "#fff"} /> */}
     </button>
   ) : (
     <button
